@@ -1,6 +1,7 @@
-#!/usr/bin/python3
-for i in range(10):
-    for j in range(i,10):
-        if i < j:
-            print("{:d}{:d}".format(i,j),
-                    end="\n" if i == 8 and j == 9 else ", ")
+#!/usr/bin/pythonn range(0, 100):
+for number in range(100):
+    if number == 99:
+        print("{}".format(number))
+    else:
+        print("{:02}".format(number), end=", ")
+ 
