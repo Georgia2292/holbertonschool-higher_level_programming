@@ -1,26 +1,11 @@
 #!/usr/bin/python3
-This module defines a class that inherits from list
-"""
+# 1-my_list.py
+"""Defines an inherited list class MyList."""
 
 
 class MyList(list):
-     """
-     This class takes the functionality inheriting from list.
-     """
+    """Implements sorted printing for the built-in list class."""
 
-     def print_sorted(self):
-         """
-         This function prints a copy of the sorted list.
-         """
-
-         print(sorted(self))
-
-     def __repr__(self):
-         """
-         This method returns a string, list representation.
-
-         Returns:
-             list (list): Returns the representation of the list.
-         """
-
-         return f"{list(self)}"
+    def print_sorted(self):
+        """Print a list in sorted ascending order."""
+        print(sorted(self))
