@@ -1,3 +1,7 @@
+
+
+-- MySQL dump 10.13  Distrib 5.5.54, for debian-linux-gnu (x86_64)
+>>>>>>> 58c340217f4ac51847e57f489b185a37e1ae197c
 --
 -- Host: localhost    Database: hbtn_0c_0
 -- ------------------------------------------------------
@@ -50,4 +54,7 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2017-02-21  7:31:42
+<<<<<<< HEAD
 
+=======
+>>>>>>> 58c340217f4ac51847e57f489b185a37e1ae197c
